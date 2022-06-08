@@ -1,4 +1,43 @@
+/* 
+Classes
+center : Text in middle
+headings : Heading font design
+sub-headings : Sub-headings font design
+body : Body font design
+*/
+
+/*
+Font families
+    font-family: 'Lato', sans-serif;
+    font-family: 'Tai Heritage Pro', serif;
+*/
+
 * {
-    color: red;
-    background: blue;
+    color: white;
+    background: black;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headings {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: large;
+}
+
+.sub-headings {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: medium;
+}
+
+.body {
+    font-family: 'Tai Heritage Pro', sans-serif;
+    font-weight: 400;
+    font-size: small;
 }
