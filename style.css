@@ -1,5 +1,6 @@
 /* 
 Classes
+main : Main container
 center : Text in middle
 headings : Heading font design
 sub-headings : Sub-headings font design
@@ -12,7 +13,7 @@ Font families
     font-family: 'Tai Heritage Pro', serif;
 */
 
-* {
+.main {
     color: white;
     background: black;
 }
