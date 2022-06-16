@@ -20,6 +20,7 @@ Font families
 
 .main {
     padding: 10px;
+    height: 100vh;
 }
 
 a {
@@ -27,11 +28,22 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0px;
+    margin-top: 20px;
+    padding: 0px;
+    line-height: 1.5;
+}
+
 .center {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: auto;
+    line-height: 0.3;
+    height: inherit;
 }
 
 .headings {
