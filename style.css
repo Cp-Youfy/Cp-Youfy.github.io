@@ -13,10 +13,12 @@ Font families
     font-family: 'Tai Heritage Pro', serif;
 */
 
-.main {
-    width: 100%;
+* {
     color: white;
     background: black;
+}
+
+.main {
     padding: 10px;
 }
 
@@ -27,6 +29,7 @@ a {
 
 .center {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
