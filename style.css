@@ -18,6 +18,11 @@ Font families
     background: black;
 }
 
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
 .center {
     display: flex;
     justify-content: center;
